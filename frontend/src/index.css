@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Your custom styles here */
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #0f172a 0%, #0b1220 100%);
+  color: #f1f5f9;
+}
+
+* {
+  transition: all 0.2s ease-in-out;
+}
