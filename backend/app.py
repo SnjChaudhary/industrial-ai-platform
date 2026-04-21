@@ -40,7 +40,7 @@ init_db()
 app.register_blueprint(auth_routes, url_prefix="/api/auth")
 app.register_blueprint(dashboard_bp, url_prefix="/api")
 app.register_blueprint(maintenance_bp, url_prefix="/api")
-app.register_blueprint(quality_bp, url_prefix="/api")
+#app.register_blueprint(quality_bp, url_prefix="/api")
 app.register_blueprint(monitoring_bp, url_prefix="/api")
 app.register_blueprint(hybrid_bp, url_prefix="/api")
 
